@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@ body {
     height: 100vh;
 }
 
+/* Local Styles */
 header {
     text-align: center;
 }
