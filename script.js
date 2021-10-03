@@ -4,7 +4,7 @@ removetransition = (e) => {
     e.target.classList.remove('playing');
 }
 
-
+//method to play sound
 playSound = (e) => {
     const key = document.querySelector(`div[data-key = "${e.keyCode}"]`);
     const audio = document.querySelector(`audio[data-key = "${e.keyCode}"]`);
